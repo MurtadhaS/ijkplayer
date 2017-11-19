@@ -21,6 +21,7 @@ android {
         jniLibs.srcDirs 'src/main/libs'
         jni.srcDirs = [] // This prevents the auto generation of Android.mk
     }
+    buildToolsVersion '26.0.2'
 }
 
 dependencies {
